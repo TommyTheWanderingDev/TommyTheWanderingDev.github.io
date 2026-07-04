@@ -14,3 +14,17 @@ nav{
     gap: 10px;
     list-style: none;
 }
+
+body {
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.main_graph {
+    background-color: gray;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
