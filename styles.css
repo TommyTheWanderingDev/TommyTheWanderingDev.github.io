@@ -1,30 +1,94 @@
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 header{
-    background-color: gray;
+    background-color: #4A6B4D;
+    border-color: #E3A857;
+    border-style: solid;
 }
 
 header h1{
-    padding: 10px;
+    margin-right: 10px;
+    text-indent: 10px;
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 nav{
     padding-left: 10px;
     padding-bottom: 10px;
+    padding-top: 10px;
     flex-direction: row;
     display: flex;
     gap: 10px;
     list-style: none;
+    border-style: solid;
+    border-color: #E3A857;
+    background-color: #4A6B4D;
+    margin-top: 10px;
+    margin-right: 450px;
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a{
+    color:#EDE6D6;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aliceblue;
 }
 
 body {
     align-items: center;
     justify-content: center;
-    margin: 50px;
+    margin-right:400px;
+    margin-left: 290px;
+    background-image: url(Images/forest.jpg);
+    color: #EDE6D6; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main_graph {
-    background-color: gray;
+    background-color: #4A6B4D;
     padding: 10px;
-    border-color: black;
+    border-color: #E3A857;
     border-style: solid;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main img{
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: solid;
+    border-width: 5px;
+    border-color: #E3A857;
+}
+
+
+footer{
+    background-color: #4A6B4D;
+    text-indent: 10px;
+    width: 100%;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    text-align: center;
+}
+
+
 
